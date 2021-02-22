@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    static let coffees: [Coffee] = Bundle.main.decode("coffees.json")
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(Self.coffees) { coffee in
+                NavigationLink(destination: CoffeeDetailView(coffee: coffee),
+                               label: { Text(coffee.name) })
+            }
+            .navigationBarTitle("foam")
+        }
     }
 }
 

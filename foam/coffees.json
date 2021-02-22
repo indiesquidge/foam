@@ -1,0 +1,64 @@
+[
+    {
+        "id": "latte",
+        "name": "caffè latte",
+        "description": "Think of a latte like a cappuccino, only with about double the amount of steamed milk.",
+        "ratio": {
+            "espresso": 0.33,
+            "milk": 0.67
+        },
+        "foam": true
+    },
+    {
+        "id": "mocha",
+        "name": "caffè mocha",
+        "description": "a chocolate-flavored variant of a caffè latte.",
+        "ratio": {
+            "espresso": 0.33,
+            "milk": 0.62,
+            "chocolate": 0.05
+        },
+        "foam": true
+    },
+    {
+        "id": "macchiato",
+        "name": "caffè macchiato",
+        "description": "Caffè macchiato means \"stained coffee\" in Italian; it is an espresso to which the barista adds a small amount of milk. Nowadays, macchiatos are usually made with a dollop of foamed milk instead of just steamed milk.",
+        "ratio": {
+            "espresso": 0.90,
+            "foam": 0.10
+        },
+        "foam": true
+    },
+    {
+        "id": "cappuccino",
+        "name": "cappuccino",
+        "description": "Hailing from 19th-century Vienna, the cappuccino was originally called the kapuziner. Cappuccinos are commonly made with equal amounts each of espresso, steamed milk and foam. Cappuccinos can be made more dry (more foam than milk) or more wet (more milk than foam).",
+        "ratio": {
+            "espresso": 0.33,
+            "milk": 0.33,
+            "foam": 0.34
+        },
+        "foam": true
+    },
+    {
+        "id": "americano",
+        "name": "americano",
+        "description": "Supposedly a drink invented by American soldiers stationed in Italy during the Second World War after they found the local espresso too strong, Americano is an espresso that has been diluted with hot water.",
+        "ratio": {
+            "espresso": 0.33,
+            "water": 0.67
+        },
+        "foam": false
+    },
+    {
+        "id": "espresso",
+        "name": "espresso",
+        "description": "The basis for many different coffee drinks, espresso is a small, strong drink made using finely ground coffee under high water pressure. Espresso has a crema: the natural head of foam that forms on top of the coffee (like the head on a pint of beer).",
+        "ratio": {
+            "espresso": 0.33
+        },
+        "foam": false
+    }
+]
+
